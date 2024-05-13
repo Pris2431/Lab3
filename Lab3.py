@@ -33,10 +33,18 @@ def bubble_sort(arr, sorting_order):
                 else:
                     # Return an empty array
                     arr_result = []
-    else:
-        arr_result = -1
+            
+            return arr_result
 
-    return arr_result
+    elif n >= 10:
+        return 1
+
+    elif n = 0:
+        return 0
+    
+    elif type(n) != int:
+        return 2
+
 
 def main():
     # Driver code to test above
